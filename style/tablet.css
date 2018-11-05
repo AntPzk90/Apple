@@ -1,0 +1,246 @@
+@media only screen and (max-width:980px){
+	h1{
+		font-size: 48px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	.container{
+		max-width: 980px;
+		min-width: 728px;
+	}
+	.header{
+		padding-top: 20px;
+		min-height: 500px;
+	}
+	.nav-wrapper{
+		flex-wrap: wrap;
+		margin-bottom: 90px;
+	}
+	.navigation{
+		order: 1;
+		flex-grow: 1
+	}
+	.burger{
+		display: none;
+	}
+	.logotype{
+		order: 3;
+		flex-grow: 2;
+		min-width: 700px;
+		margin:0 auto;
+		margin-top: 25px;
+	}
+	.sub-nav{
+		order:2;
+		flex-grow: 1;
+	}
+	.header-title-block{
+		max-width: 630px;
+	}
+	.header-dscr{
+	font-size: 16px;
+	line-height:24px;
+	color: #26272d;
+	}
+	.video-btn{
+		background-color: #267df4;
+		color: #fff;
+		border: none;
+	}
+	.video-btn img{
+	display: none;
+	}
+	.features{
+	min-height: 560px;
+	padding-top: 60px;
+	}
+	.features-wrapper{
+		flex-direction: column;
+		padding-bottom: 60px;
+	}
+	.iphone-features{
+		background-image: url("../IMG/iPhone 6 tablet.png");
+		background-position: -70px 20px;
+		background-repeat: no-repeat;
+		min-height: 400px;
+		padding-top: 0px;
+	}
+	.conteiner-for-bg{
+		max-width: 980px;
+		min-width: 728px;
+		background-image:none;
+	}
+	.iphone-features-wrapper{
+		justify-content: center;
+		min-height: 400px;
+	}
+	.iphone-feature-item:first-child{
+		display: none;
+	}
+	.iphone-feature-item{
+		text-align: center;
+		color: #26272d;
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+	.iphone-feature-title{
+		width: 100%;
+	}
+	.iphone-feature-buttons{
+		max-width: 100%;
+	}
+	.more-btn{
+		background-color: #fff;
+		border-color: #26272d;
+	}
+	.map-features{
+		padding-top: 60px;
+		min-height: 550px;
+	}
+	.conteiner-for-bg-map{
+		max-width: 980px;
+		min-width: 728px;
+		background-image:none;
+	}
+	.map-features-wrapper{
+		min-height: 550px;
+		justify-content: center;
+	}
+	.map-feature-item{
+		margin-top: 0;
+		text-align: center;
+		color: #26272d;
+	}
+	.map-feature-item:last-child{
+		display: none;
+	}
+	.map-feature-title{
+		width: 100%;
+	}
+	.map-parnters-buttons{
+		max-width: 100%;
+	}
+	.iphone-screen{
+		min-height: 600px;
+	}
+	.iphone-screen-wrapper{
+		padding-top:60px;
+	}
+	.screen-title{
+		margin-bottom: 20px;
+	}
+	.screen-title::after{
+		margin-top: 20px;
+	}
+	.sub-title{
+		margin-bottom: 30px;
+	}
+	.screen{
+		display: none;
+	}
+	.Iphone6-screen{
+	height: 550px;
+	max-width: 370px;
+	margin-right: -20px;
+	}
+	.ready-to-buy{
+		min-height: 450px;
+		padding-top: 45px;
+	}
+	.ready-to-buy-title{
+		margin-bottom: 30px;
+	}
+	.buy-form{
+	margin-bottom: 40px;
+	}
+	.buy-label{
+		max-width: 400px;
+	}
+	.buy-input{
+		max-width: 200px;
+	}
+	.form-btn{
+		max-width: 120px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.form-btn .arrow-icon{
+		display: none;
+	}
+	.appstore{
+		margin-bottom: 0px;
+	}
+	.plan-block{
+	min-height: 770px;
+	}
+	.plan-wrapper{
+		flex-direction: column;
+		min-height: 770px;
+	}
+	.plan-choice{
+	max-width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+	.plan-choice-title{
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	.plan-btn{
+		max-width: 270px;
+		margin:0 auto;
+	}
+	.plan-choice-dscr{
+		color: #26272d;
+		margin-bottom: 25px;
+	}
+	.plan-price-list{
+		min-height: 460px;
+	}
+	.individual-plan,.company-plan{
+		padding: 30px 26px;
+		min-height: 400px;
+		width: 300px
+	}
+	.price-list-active{
+		min-height: 420px;
+		padding: 40px 26px
+	}
+	.plan-price-list{
+		margin-bottom: 40px;
+	}
+	.plan-mini-title{
+		font-size: 26px;
+		line-height: 32px;
+		margin-bottom: 20px;
+	}
+	.plan-price-list-dscr{
+		margin-bottom: 30px;
+	}
+	.sub-plan-price-list li{
+		max-width: 90%;
+	}
+	.subscribe{
+		min-height: 300px;
+	}
+	.subscribe-wrapper{
+		min-height: 300px;
+		padding-top: 30px;
+	}
+	.footer-wrapper{
+		padding-top: 40px;
+	}
+	.footer-floor-1{
+		padding-bottom: 40px;
+	}
+	.footer-social{
+		width: 220px;
+	}
+	.footer-text{
+		width: 380px;
+	}
+}
